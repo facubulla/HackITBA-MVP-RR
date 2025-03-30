@@ -219,7 +219,7 @@ export default function UserDashboard() {
         <Card className="flex-1 shadow-lg rounded-2xl border-0 bg-white/90 backdrop-blur-sm">
           <CardContent>
             <Tabs defaultValue="history">
-              <TabsList className="flex justify-center space-x-4 border-b">
+              <TabsList style={{flex:1, flexDirection:"row"}} className="flex justify-center space-x-4 border-b">
                 <TabsTrigger value="history" className="px-4 py-2 font-medium">
                   Historial
                 </TabsTrigger>
@@ -267,7 +267,7 @@ export default function UserDashboard() {
                       >
                         ←
                       </button>
-                      <img
+                      {/* <img
                         src={empresaSeleccionada.icono}
                         alt={empresaSeleccionada.nombre}
                         style={{
@@ -277,7 +277,7 @@ export default function UserDashboard() {
                           borderRadius: "50%",
                           objectFit: "cover"
                         }}
-                      />
+                      /> */}
                       <p className="font-medium">{empresaSeleccionada.nombre}</p>
                     </div>
 
@@ -323,7 +323,7 @@ export default function UserDashboard() {
                         }}
                       >
                         <div className="flex items-center">
-                          <img
+                          {/* <img
                             src={empresa.icono}
                             alt={empresa.nombre}
                             style={{
@@ -333,7 +333,7 @@ export default function UserDashboard() {
                               borderRadius: "50%",
                               objectFit: "cover"
                             }}
-                          />
+                          /> */}
                           <p>{empresa.nombre}</p>
                         </div>
                       </div>

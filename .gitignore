@@ -1,0 +1,5 @@
+./loyalty-microservice/node_modules/
+./loyalty-frontend/node_modules/
+node_modules/
+loyalty-microservice/node_modules/
+loyalty-frontend/node_modules/
